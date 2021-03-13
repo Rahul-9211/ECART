@@ -164,6 +164,7 @@ p{
     margin: 0 auto 80px;
     position: relative;
     line-height: 60px;
+    z-index: -1;
     color: #555;
 }
 .title::after{
@@ -283,6 +284,42 @@ padding-right: 0px;
     border: none;
     margin-top: 0px;
 }
+
+ /* media query for contact  */
+ @media only screen and (max-width:800px){
+     .contact .row{
+         flex-direction: column;
+     }
+     .contact .main-details input {
+        width: 90%;
+    }
+    .contact .small-container {
+        padding-left:0 ;
+        padding-right: 0;
+    }
+    .contact .main-details input {
+        width: 120%;
+    }
+    #textarea {
+        width: 120%;
+    }
+    .contact .send {
+        width: 120%;
+    }
+ }
+
+ 
+ @media only screen and (max-width:400px){
+    .contact .main-details input {
+        width: 100%;
+    }
+    #textarea {
+        width: 100%;
+    }
+    .contact .send {
+        width: 100%;
+    }
+ }
 
 /* Brands  */
 .brands{
