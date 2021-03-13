@@ -277,7 +277,12 @@ padding-right: 0px;
         outline: none;
         border: 1px solid #e63c26;
     }
-
+.contact .send{
+    width: 60%;
+    border-radius: 0px;
+    border: none;
+    margin-top: 0px;
+}
 
 /* Brands  */
 .brands{
